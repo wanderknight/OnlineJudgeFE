@@ -1,2 +1,2 @@
-const ClassList = () => import(/* webpackChunkName: "contest" */ './ClassList.vue')
-export {ClassList}
+const ClassgroupList = () => import(/* webpackChunkName: "contest" */ './ClassgroupList.vue')
+export {ClassgroupList}
