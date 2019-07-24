@@ -3,9 +3,9 @@
 </template>
 
 <script>
-    export default {
-        name: "contest-list"
-    }
+  export default {
+    name: 'classgroup-list'
+  }
 </script>
 
 <style scoped>
