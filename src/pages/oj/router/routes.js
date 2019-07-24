@@ -18,6 +18,7 @@ import {
 } from '../views'
 
 import * as Contest from '@oj/views/contest'
+import * as Classgroup from '@/views/classgroup'
 import * as Setting from '@oj/views/setting'
 
 export default [
