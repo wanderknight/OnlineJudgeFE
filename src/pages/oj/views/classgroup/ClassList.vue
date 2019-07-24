@@ -4,7 +4,7 @@
 
 <script>
     export default {
-        name: "ClassList.vue"
+        name: "contest-list"
     }
 </script>
 
