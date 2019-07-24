@@ -76,6 +76,12 @@ export default [
     component: Contest.ContestList
   },
   {
+    name: 'classgroup-list',
+    path: 'classgroup',
+    meta: {title:'Class List'},
+    component: Classgroup.ClassList
+  },
+  {
     name: 'contest-details',
     path: '/contest/:contestID/',
     component: Contest.ContestDetails,
