@@ -80,7 +80,7 @@ export default [
     name: 'classgroup-list',
     path: 'classgroup',
     meta: {title: 'Class List'},
-    component: Classgroup.ClassList
+    component: Classgroup.ClassgroupList
   },
   {
     name: 'contest-details',
