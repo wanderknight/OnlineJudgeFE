@@ -133,6 +133,15 @@ export default {
       }
     })
   },
+  getClassgroupList (offset, limit) {
+    let params = {
+      offset,
+      limit
+    }
+    return ajax('classgroups', 'get', {
+      params
+    })
+  },
   getContestList (offset, limit, searchParams) {
     let params = {
       offset,

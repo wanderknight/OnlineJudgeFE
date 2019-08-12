@@ -78,8 +78,8 @@ export default [
   },
   {
     name: 'classgroup-list',
-    path: '/classgroup',
-    meta: {title: 'Class List'},
+    path: '/classgroups',
+    meta: {title: 'Classgroup List'},
     component: Classgroup.ClassgroupList
   },
   {
