@@ -42,7 +42,7 @@ export const m = {
   Home: '首页',
   NavProblems: '问题',
   Contests: '练习&比赛',
-  Classgroup: '班级分组',
+  Classgroups: '班级分组',
   NavStatus: '状态',
   Rank: '排名',
   ACM_Rank: 'ACM 排名',

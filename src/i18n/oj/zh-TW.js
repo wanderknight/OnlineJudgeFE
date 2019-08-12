@@ -42,7 +42,7 @@ export const m = {
   Home: '首頁',
   NavProblems: '試題',
   Contests: '比賽',
-  Classgroup: '班級分組',
+  Classgroups: '班級分組',
   NavStatus: '狀態',
   Rank: '排名',
   ACM_Rank: 'ACM 排名',

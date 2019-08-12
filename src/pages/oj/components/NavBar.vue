@@ -14,8 +14,8 @@
         <Icon type="trophy"></Icon>
         {{$t('m.Contests')}}
       </Menu-item>
-      <Menu-item name="/classgroup">
-        {{$t('m.Classgroup')}}
+      <Menu-item name="/classgroups">
+        {{$t('m.Classgroups')}}
       </Menu-item>
       <Menu-item name="/status">
         <Icon type="ios-pulse-strong"></Icon>
