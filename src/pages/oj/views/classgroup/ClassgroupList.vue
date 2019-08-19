@@ -37,15 +37,8 @@
 //      cur_contest_id: ''
       }
     },
-    beforeRouteEnter (to, from, next) {
-      api.getClassgroupList(0, limit).then((res) => {
-        next((vm) => {
-          vm.classgroups = res.data.data.results
-          vm.total = res.data.data.total
-        })
-      }, (res) => {
-        next()
-      })
+    mounted () {
+      this.init()
     },
     methods: {
       init () {
@@ -68,7 +61,7 @@
 </script>
 
 <style lang="less" scoped>
-/*  #classgroup-card {
+  #classgroup-card {
     #keyword {
       width: 80%;
       margin-right: 30px;
@@ -110,5 +103,5 @@
         }
       }
     }
-  }*/
+  }
 </style>
