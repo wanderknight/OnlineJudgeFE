@@ -247,11 +247,12 @@ export default {
       data
     })
   },
-  getUserRank (offset, limit, rule = 'acm') {
+  getUserRank (offset, limit, rule = 'acm', myself) {
     let params = {
       offset,
       limit,
-      rule
+      rule,
+      myself
     }
     return ajax('user_rank', 'get', {
       params
